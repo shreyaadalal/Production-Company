@@ -1,0 +1,236 @@
+a {
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: 'Faustina', serif;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px 0px 30px;
+}
+
+h4 {
+    font-family: 'Faustina', serif;
+}
+
+hr {
+    border:none;
+    border-top:dotted;
+    border-color: gray;
+    border-width: 6px;
+    width: 50%;
+    margin: 50px auto 20px;
+}
+
+p {
+    color: gray;
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+}
+
+.container-fluid {
+    text-align: center;
+}
+
+                                            /* Navigation Bar Section*/
+
+#navigation-bar {
+    /* background-color: #F9EBC8; */
+    background-color: #65647C;
+    font-family: 'Faustina', serif;
+    font-size: 1.2rem;  
+}
+
+.nav-item {
+    padding: 0px 16px;
+}
+
+.nav-text {
+    color:#F9EBC8;
+}
+
+.navbar-logo {
+    display:none;
+}
+
+                                            /* Title Section */
+
+.title-section {
+    background-color: #65647C;
+}
+.title-image {
+    width: 50%;
+    float:right;
+}
+
+.logo {
+    font-family: 'Amatic SC', cursive;
+    font-size: 9rem;
+    font-weight: bold;
+    color: #F9EBC8;
+    text-align: left;
+    padding-top: 5%;
+}
+
+@media (max-width: 1592px) {
+    .logo {
+        font-size: 8rem;
+    }
+}
+
+@media (max-width: 1280px) {
+    .logo {
+        font-size: 6rem;
+    }
+}
+
+@media (max-width: 980px) {
+    .navbar-logo {
+        display:contents;
+    }
+    .title-component1 {
+        display:none;
+    }
+    .logo {
+        text-align: center;
+    }
+}
+
+                                            /* Information Section */
+#information {
+    background-color: #FEFBE7;
+    /* height: 850px; */
+}
+
+.info {
+    position:relative;
+}
+
+.info-heading {
+    color: #65647C;
+}
+
+                                            /* About Us Sub-Section */
+.about-description {
+    width: 75%;
+    text-align: center;
+    margin: 0px auto 20px;    
+}
+
+                                            /* Team Sub-Section */
+.member-name {
+    margin-top: 10px;
+    color:#65647C;
+}
+.member-pic {
+    width: 50%;
+    border-radius: 100%;
+    margin: 10px 20px;
+}
+
+.indivi-info {
+    /* width: 25%;
+    height: 350px; */
+    text-align: center;
+}
+
+/* .shreya1 {
+    position:relative;
+}
+
+.shreya2 {
+    position:relative;
+    bottom: 350px;
+    left: 25%;
+}
+
+.shreya3 {
+    position:relative;
+    bottom: 700px;
+    left: 50%;
+}
+
+.shreya4 {
+    position:relative;
+    bottom: 1050px;
+    left: 75%;
+} */
+
+                                            /* Video Section */
+                                            /* Make this section responsive */
+.featured-section {
+    background-color: #65647C;
+    color: #FEFBE7;
+    padding: 2% 0%;
+}
+
+.carousel-item {
+    padding: 3% 15%;
+}
+
+                                            /* Festivals Section */
+.festival-section {
+    background-color: #FEFBE7;
+    color:#65647C;
+    text-align: center;
+    padding-bottom: 50px;
+    text-align: center;
+    padding: 3px 0px;
+}
+
+.fest-name {
+    color: gray;
+    font-size: 22px;
+}
+
+.fest-name:hover {
+    color: #3C4048;
+}
+
+.festival-description {
+    width:75%;
+    text-align: center;
+    margin: 0px auto 20px; 
+}
+
+.title {
+    font-size: 15px;
+}
+
+.card-body {
+    background-color: #65647C;
+}
+
+.quote {
+    color:#F9EBC8;
+}
+
+                                        /* Contact Us */
+#contact {
+    background-color: #65647C;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.contact-section {
+    color:#F9EBC8;
+}
+
+.platform {
+    padding: 30px 40px;
+    text-decoration: none;
+    color:#F9EBC8;
+}
+
+.platform:hover {
+    /* color: #fce19c; */
+    color: rgb(52, 52, 52);
+}
+
+.copyright {
+    color:#F9EBC8;
+    font-size: 0.9rem;
+    padding: 20px 0px 10px;
+}
