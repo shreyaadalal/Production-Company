@@ -53,6 +53,9 @@ p {
 
 .navbar-logo {
     display:none;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
                                             /* Title Section */
@@ -87,9 +90,9 @@ p {
 }
 
 @media (max-width: 980px) {
-    .navbar-logo {
+    /* .navbar-logo {
         display:contents;
-    }
+    } */
     .title-component1 {
         display:none;
     }
